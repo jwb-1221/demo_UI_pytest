@@ -15,7 +15,7 @@ class config(object):
     def config_Chrome(self):
         pass
     def config_Firefox(self):
-        self.dr = webdriver.Firefox(executable_path= )
+        self.dr = webdriver.Firefox(executable_path="")
 
 
 
