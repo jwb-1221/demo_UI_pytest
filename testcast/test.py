@@ -2,13 +2,11 @@ from selenium import webdriver
 import time
 from config import URL,config,screenshot
 import unittest
-class TEST(unittest.TestCase):
+class TEST_1(unittest.TestCase):
     def test_1(self):
-        config.config.config_Chrome(self)
+        config.config.config_Chrome_admin(self)
         time.sleep(10)
+    def test_2(self):
 
-        # self.dr = webdriver.Firefox(executable_path = r"D:\request\腾讯云代码库\demo_UI\lib\geckodriver.exe")
-        # self.dr.implicitly_wait(15)
-        # self.dr.maximize_window()
-        # self.dr.get(url='http://account-admin-webos-test.lastmiles.cn/#/')
-        # time.sleep(10)
+        config.config.config_Firefox_admin(self)
+        time.sleep(10)
