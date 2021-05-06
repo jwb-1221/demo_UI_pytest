@@ -5,7 +5,7 @@ import sys,os
 config = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(config)
 #截图路径
-scrrrnshot_report = str(os.path.join(config,"report")).replace("/", "\\")
+scrrrnshot_report = os.path.join(config,"report"+"/")
 
 class config(object):
     "浏览器配置信息"

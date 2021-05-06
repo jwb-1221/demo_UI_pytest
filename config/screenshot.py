@@ -4,7 +4,7 @@ class scrrrnshot(object):
     """截图对象"""
     def scrrrnshot(self,interface):
         """浏览器截图方法"""
-        pic_path = (scrrrnshot_report+interface +".png")
+        pic_path = (scrrrnshot_report,interface +".png")
         print(pic_path)
         time.sleep(2)
         self.dr.save_screenshot(pic_path)
