@@ -7,6 +7,5 @@ class TEST_1(unittest.TestCase):
         config.config.config_Chrome_admin(self)
         time.sleep(10)
     def test_2(self):
-
         config.config.config_Firefox_admin(self)
         time.sleep(10)
