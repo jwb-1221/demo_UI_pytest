@@ -9,5 +9,5 @@ class TEST_1(unittest.TestCase):
         time.sleep(2)
         screenshot.scrrrnshot("登录").ImageGrab()
     def test_2(self):
-        config.config.config_Firefox_admin(self)
-        time.sleep(10)
+        config.config.config_Chrome_admin(self)
+        time.sleep(2)
