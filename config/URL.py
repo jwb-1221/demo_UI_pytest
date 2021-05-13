@@ -1,4 +1,4 @@
-class URL(object):
+class URL():
     def merchant_url(self):
         """商户端地址"""
         return "http://account-merchant-webos-test.lastmiles.cn/#/"

@@ -1,6 +1,6 @@
 from selenium import webdriver
 from config import URL
-class config(object):
+class config():
     """浏览器类"""
     def __init__(self):
         self.dr =None

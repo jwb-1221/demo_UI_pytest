@@ -1,6 +1,6 @@
 from PIL import ImageGrab
 from config.config import *
-class scrrrnshot(object):
+class scrrrnshot():
     """截图对象"""
     def __init__(self,interface):
         self.page = interface
