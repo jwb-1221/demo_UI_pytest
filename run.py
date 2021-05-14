@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # _*_ coding:utf-8 _*_
 __author__ = 'BIN'
-import os
 import unittest
 from config import config
 from lib import send_mail
