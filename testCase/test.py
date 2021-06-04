@@ -3,6 +3,7 @@ from config import config
 from lib import screenshot
 from common import browser
 import unittest
+import logging
 class TEST_1(unittest.TestCase):
     def test_1(self):
         browser.config.config_Chrome_admin(self)
