@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Thu Jul 01 17:48:50 CST 2021","Thu Jul 01 17:48:50 CST 2021","0","testCase","test","Testcase","","","test_case02",""
+"failed","Thu Jul 01 17:48:50 CST 2021","Thu Jul 01 17:48:50 CST 2021","1","testCase","test","Testcase","","","test_case01",""

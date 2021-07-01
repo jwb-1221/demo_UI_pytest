@@ -16,11 +16,10 @@ class Testcase(object):
     def test_case01(self):
 
         print('执行用例01.......')
-        return 2
 
-        # assert 0  # 断言失败
+        assert 0  # 断言失败
 
-    @pytest.mark.skipif(condition=test_case01==3, reason='如果条件为true就跳过用例')
+    @pytest.mark.skipif(condition=1<2, reason='如果条件为true就跳过用例')
     def test_case02(self):
         print('执行用例02.......')
 

@@ -1,0 +1,99 @@
+{
+  "uid" : "15b51c6fcef22d51",
+  "name" : "test_case02",
+  "fullName" : "testCase.test.Testcase#test_case02",
+  "historyId" : "9078c34ff831bb74ca4c0c76bfe75e29",
+  "time" : {
+    "start" : 1625132930941,
+    "stop" : 1625132930941,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: 如果条件为true就跳过用例",
+  "statusTrace" : "('D:\\\\request\\\\腾讯云代码库\\\\demo_UI\\\\testCase\\\\test.py', 22, 'Skipped: 如果条件为true就跳过用例')",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Testcase",
+    "time" : {
+      "start" : 1625132930640,
+      "stop" : 1625132930641,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625132930946,
+      "stop" : 1625132930946,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(condition=True, reason='如果条件为true就跳过用例')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "XSD-20190315NRK"
+  }, {
+    "name" : "thread",
+    "value" : "3544-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cc1410583d4eb703",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625131735464,
+        "stop" : 1625131735464,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(condition=True, reason='如果条件为true就跳过用例')" ]
+  },
+  "source" : "15b51c6fcef22d51.json",
+  "parameterValues" : [ ]
+}

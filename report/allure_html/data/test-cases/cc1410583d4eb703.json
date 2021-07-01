@@ -1,0 +1,117 @@
+{
+  "uid" : "cc1410583d4eb703",
+  "name" : "test_case02",
+  "fullName" : "testCase.test.Testcase#test_case02",
+  "historyId" : "9078c34ff831bb74ca4c0c76bfe75e29",
+  "time" : {
+    "start" : 1625131735464,
+    "stop" : 1625131735464,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Testcase",
+    "time" : {
+      "start" : 1625131735448,
+      "stop" : 1625131735449,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_method_fixture_Testcase",
+    "time" : {
+      "start" : 1625131735463,
+      "stop" : 1625131735463,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625131735469,
+      "stop" : 1625131735470,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_method_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625131735465,
+      "stop" : 1625131735465,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skipif(condition=False, reason='如果条件为true就跳过用例')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "XSD-20190315NRK"
+  }, {
+    "name" : "thread",
+    "value" : "7196-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.skipif(condition=False, reason='如果条件为true就跳过用例')" ]
+  },
+  "source" : "cc1410583d4eb703.json",
+  "parameterValues" : [ ]
+}

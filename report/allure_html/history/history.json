@@ -1,0 +1,42 @@
+{
+  "9a0b11c2437cbc89147d7c380b2f41d1" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c64b611b26931945",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1625132930645,
+        "stop" : 1625132930646,
+        "duration" : 1
+      }
+    } ]
+  },
+  "9078c34ff831bb74ca4c0c76bfe75e29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15b51c6fcef22d51",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 如果条件为true就跳过用例",
+      "time" : {
+        "start" : 1625132930941,
+        "stop" : 1625132930941,
+        "duration" : 0
+      }
+    } ]
+  }
+}
