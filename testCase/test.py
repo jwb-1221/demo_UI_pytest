@@ -1,25 +1,38 @@
-import time
-from config import config
-from lib import screenshot
-from common import browser
-import ceshishuju
+import pytest
+class Testcase(object):
+    def setup_class(self):
+        print("类级别的 setup")
+    def teardown_class(self):
+        print("类级别的teardown")
 
-import unittest
-class TEST_1(unittest.TestCase):
-    def test_1(self):
-        browser.config.config_Chrome_admin(self)
-        time.sleep(2)
-        self.dr.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/form/div[1]/div/div/div/input').send_keys(
-            ceshishuju.shuju.shuju1[0]["user"])
-        self.dr.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/form/div[2]/div/div/div[1]/input').send_keys(
-            ceshishuju.shuju.shuju1[0]["user"])
-        self.dr.find_element_by_xpath('//*[@id="app"]/div/div[2]/div/form/div[3]/div/div/div[1]/div/div/input').send_keys(
-            ceshishuju.shuju.shuju1[0]["user"])
-        time.sleep(10)
-        screenshot.scrrrnshot("登录").ImageGrab()
-    def test_2(self):
-        config.config.config_Chrome_admin(self)
-        time.sleep(2)
 
-if __name__ == "__main__":
-    TEST_1.test_1()
+    def setup_method(self):
+
+        """ 模块级别的 setup，在该脚本内所有用例集执行之前触发执行 """
+
+        print('类方法级别的 setup.....')
+
+    # @pytest.mark.skip(condition='我就是要跳过这个用例啦')
+    def test_case01(self):
+
+        print('执行用例01.......')
+        return 2
+
+        # assert 0  # 断言失败
+
+    @pytest.mark.skipif(condition=test_case01==3, reason='如果条件为true就跳过用例')
+    def test_case02(self):
+        print('执行用例02.......')
+
+        assert 1  # 断言成功
+
+
+    def teardown_method(self):
+
+        """ 模块级别的 teardown，在该脚本内所有用例集执行之后触发执行 """
+
+        print('类方法级别的 teardown.....')
+
+if __name__ == '__main__':
+
+    pytest.main(["-s", "test.py"])
