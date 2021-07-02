@@ -1,18 +1,21 @@
+
 import pytest
+
 import allure
+
+from common.browser import config
+
 class Testcase(object):
     def setup_class(self):
         print("类级别的 setup")
+        config.config_Chrome_admin(self)
     def teardown_class(self):
         print("类级别的teardown")
 
-
     def setup_method(self):
-
-        """ 模块级别的 setup，在该脚本内所有用例集执行之前触发执行 """
-
         print('类方法级别的 setup.....')
-
+    def teardown_method(self):
+        print('类方法级别的 teardown.....')
     # @pytest.mark.skip(condition='我就是要跳过这个用例啦')
     @allure.title('测试用例标题1')
     @allure.description('这是测试用例用例1的描述信息')
@@ -31,11 +34,7 @@ class Testcase(object):
         assert 1  # 断言成功
 
 
-    def teardown_method(self):
 
-        """ 模块级别的 teardown，在该脚本内所有用例集执行之后触发执行 """
-
-        print('类方法级别的 teardown.....')
 
 if __name__ == '__main__':
 
