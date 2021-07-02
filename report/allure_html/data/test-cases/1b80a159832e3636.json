@@ -1,24 +1,24 @@
 {
-  "uid" : "c64b611b26931945",
-  "name" : "test_case01",
-  "fullName" : "testCase.test.Testcase#test_case01",
-  "historyId" : "9a0b11c2437cbc89147d7c380b2f41d1",
+  "uid" : "1b80a159832e3636",
+  "name" : "测试用例标题2",
+  "fullName" : "testCase.test.Testcase#test_case02",
+  "historyId" : "9078c34ff831bb74ca4c0c76bfe75e29",
   "time" : {
-    "start" : 1625132930645,
-    "stop" : 1625132930646,
+    "start" : 1625133983142,
+    "stop" : 1625133983143,
     "duration" : 1
   },
-  "status" : "failed",
-  "statusMessage" : "AssertionError: assert 0",
-  "statusTrace" : "self = <test.Testcase object at 0x04496B98>\n\n    def test_case01(self):\n    \n        print('执行用例01.......')\n    \n>       assert 0  # 断言失败\nE       assert 0\n\ntestCase\\test.py:20: AssertionError",
+  "description" : "这是测试用例用例2的描述信息",
+  "descriptionHtml" : "<p>这是测试用例用例2的描述信息</p>\n",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "xunit_setup_method_fixture_Testcase",
     "time" : {
-      "start" : 1625132930641,
-      "stop" : 1625132930642,
-      "duration" : 1
+      "start" : 1625133983142,
+      "stop" : 1625133983142,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
   }, {
     "name" : "xunit_setup_class_fixture_Testcase",
     "time" : {
-      "start" : 1625132930640,
-      "stop" : 1625132930641,
-      "duration" : 1
+      "start" : 1625133982824,
+      "stop" : 1625133982824,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,8 +47,8 @@
   "afterStages" : [ {
     "name" : "xunit_setup_method_fixture_Testcase::0",
     "time" : {
-      "start" : 1625132930936,
-      "stop" : 1625132930936,
+      "start" : 1625133983144,
+      "stop" : 1625133983144,
       "duration" : 0
     },
     "status" : "passed",
@@ -62,8 +62,8 @@
   }, {
     "name" : "xunit_setup_class_fixture_Testcase::0",
     "time" : {
-      "start" : 1625132930946,
-      "stop" : 1625132930946,
+      "start" : 1625133983146,
+      "stop" : 1625133983146,
       "duration" : 0
     },
     "status" : "passed",
@@ -89,7 +89,7 @@
     "value" : "XSD-20190315NRK"
   }, {
     "name" : "thread",
-    "value" : "3544-MainThread"
+    "value" : "10720-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -110,21 +110,35 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "90bb71c2fc1459e6",
+      "uid" : "7c6aff039617b605",
       "status" : "passed",
       "time" : {
-        "start" : 1625131735454,
-        "stop" : 1625131735454,
+        "start" : 1625133637347,
+        "stop" : 1625133637347,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "738d7b12d28326ca",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 如果条件为true就跳过用例",
+      "time" : {
+        "start" : 1625133486705,
+        "stop" : 1625133486705,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dc1b22da382cb8a4",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 如果条件为true就跳过用例",
+      "time" : {
+        "start" : 1625133167646,
+        "stop" : 1625133167646,
         "duration" : 0
       }
     } ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c64b611b26931945.json",
+  "source" : "1b80a159832e3636.json",
   "parameterValues" : [ ]
 }

@@ -1,21 +1,25 @@
 {
-  "uid" : "90bb71c2fc1459e6",
-  "name" : "test_case01",
+  "uid" : "9d23e500724829c5",
+  "name" : "测试用例标题1",
   "fullName" : "testCase.test.Testcase#test_case01",
   "historyId" : "9a0b11c2437cbc89147d7c380b2f41d1",
   "time" : {
-    "start" : 1625131735454,
-    "stop" : 1625131735454,
-    "duration" : 0
+    "start" : 1625133982829,
+    "stop" : 1625133982830,
+    "duration" : 1
   },
-  "status" : "passed",
+  "description" : "这是测试用例用例1的描述信息",
+  "descriptionHtml" : "<p>这是测试用例用例1的描述信息</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test.Testcase object at 0x03C8F5C8>\n\n    @allure.title('测试用例标题1')\n    @allure.description('这是测试用例用例1的描述信息')\n    def test_case01(self):\n    \n        print('执行用例01.......')\n    \n>       assert 0  # 断言失败\nE       assert 0\n\ntestCase\\test.py:24: AssertionError",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "xunit_setup_method_fixture_Testcase",
     "time" : {
-      "start" : 1625131735449,
-      "stop" : 1625131735449,
+      "start" : 1625133982825,
+      "stop" : 1625133982825,
       "duration" : 0
     },
     "status" : "passed",
@@ -29,9 +33,9 @@
   }, {
     "name" : "xunit_setup_class_fixture_Testcase",
     "time" : {
-      "start" : 1625131735448,
-      "stop" : 1625131735449,
-      "duration" : 1
+      "start" : 1625133982824,
+      "stop" : 1625133982824,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,9 +49,9 @@
   "afterStages" : [ {
     "name" : "xunit_setup_method_fixture_Testcase::0",
     "time" : {
-      "start" : 1625131735455,
-      "stop" : 1625131735456,
-      "duration" : 1
+      "start" : 1625133983134,
+      "stop" : 1625133983134,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -60,9 +64,9 @@
   }, {
     "name" : "xunit_setup_class_fixture_Testcase::0",
     "time" : {
-      "start" : 1625131735469,
-      "stop" : 1625131735470,
-      "duration" : 1
+      "start" : 1625133983146,
+      "stop" : 1625133983146,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -87,7 +91,7 @@
     "value" : "XSD-20190315NRK"
   }, {
     "name" : "thread",
-    "value" : "7196-MainThread"
+    "value" : "10720-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -103,12 +107,45 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
-    "categories" : [ ],
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8233e6826671279e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1625133637048,
+        "stop" : 1625133637049,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "370bf5fd8cbdc35",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1625133486281,
+        "stop" : 1625133486282,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ae5090aed3e8e714",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1625133167352,
+        "stop" : 1625133167353,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
     "tags" : [ ]
   },
-  "source" : "90bb71c2fc1459e6.json",
+  "source" : "9d23e500724829c5.json",
   "parameterValues" : [ ]
 }

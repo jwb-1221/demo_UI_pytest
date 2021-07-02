@@ -1,11 +1,11 @@
 {
-  "uid" : "15b51c6fcef22d51",
+  "uid" : "dc1b22da382cb8a4",
   "name" : "test_case02",
   "fullName" : "testCase.test.Testcase#test_case02",
   "historyId" : "9078c34ff831bb74ca4c0c76bfe75e29",
   "time" : {
-    "start" : 1625132930941,
-    "stop" : 1625132930941,
+    "start" : 1625133167646,
+    "stop" : 1625133167646,
     "duration" : 0
   },
   "status" : "skipped",
@@ -16,9 +16,9 @@
   "beforeStages" : [ {
     "name" : "xunit_setup_class_fixture_Testcase",
     "time" : {
-      "start" : 1625132930640,
-      "stop" : 1625132930641,
-      "duration" : 1
+      "start" : 1625133167348,
+      "stop" : 1625133167348,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -32,9 +32,9 @@
   "afterStages" : [ {
     "name" : "xunit_setup_class_fixture_Testcase::0",
     "time" : {
-      "start" : 1625132930946,
-      "stop" : 1625132930946,
-      "duration" : 0
+      "start" : 1625133167650,
+      "stop" : 1625133167651,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -62,7 +62,7 @@
     "value" : "XSD-20190315NRK"
   }, {
     "name" : "thread",
-    "value" : "3544-MainThread"
+    "value" : "4400-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -78,22 +78,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "cc1410583d4eb703",
-      "status" : "passed",
-      "time" : {
-        "start" : 1625131735464,
-        "stop" : 1625131735464,
-        "duration" : 0
-      }
-    } ],
     "categories" : [ ],
     "tags" : [ "@pytest.mark.skipif(condition=True, reason='如果条件为true就跳过用例')" ]
   },
-  "source" : "15b51c6fcef22d51.json",
+  "source" : "dc1b22da382cb8a4.json",
   "parameterValues" : [ ]
 }

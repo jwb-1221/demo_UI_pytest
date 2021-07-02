@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"skipped","Thu Jul 01 17:48:50 CST 2021","Thu Jul 01 17:48:50 CST 2021","0","testCase","test","Testcase","","","test_case02",""
-"failed","Thu Jul 01 17:48:50 CST 2021","Thu Jul 01 17:48:50 CST 2021","1","testCase","test","Testcase","","","test_case01",""
+"failed","Thu Jul 01 18:06:22 CST 2021","Thu Jul 01 18:06:22 CST 2021","1","testCase","test","Testcase","","","测试用例标题1","这是测试用例用例1的描述信息"
+"passed","Thu Jul 01 18:06:23 CST 2021","Thu Jul 01 18:06:23 CST 2021","1","testCase","test","Testcase","","","测试用例标题2","这是测试用例用例2的描述信息"

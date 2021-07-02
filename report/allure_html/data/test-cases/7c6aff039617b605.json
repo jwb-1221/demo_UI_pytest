@@ -1,22 +1,24 @@
 {
-  "uid" : "cc1410583d4eb703",
-  "name" : "test_case02",
+  "uid" : "7c6aff039617b605",
+  "name" : "测试用例标题2",
   "fullName" : "testCase.test.Testcase#test_case02",
   "historyId" : "9078c34ff831bb74ca4c0c76bfe75e29",
   "time" : {
-    "start" : 1625131735464,
-    "stop" : 1625131735464,
+    "start" : 1625133637347,
+    "stop" : 1625133637347,
     "duration" : 0
   },
+  "description" : "这是测试用例用例2的描述信息",
+  "descriptionHtml" : "<p>这是测试用例用例2的描述信息</p>\n",
   "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
     "name" : "xunit_setup_class_fixture_Testcase",
     "time" : {
-      "start" : 1625131735448,
-      "stop" : 1625131735449,
-      "duration" : 1
+      "start" : 1625133637045,
+      "stop" : 1625133637045,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -29,9 +31,9 @@
   }, {
     "name" : "xunit_setup_method_fixture_Testcase",
     "time" : {
-      "start" : 1625131735463,
-      "stop" : 1625131735463,
-      "duration" : 0
+      "start" : 1625133637346,
+      "stop" : 1625133637347,
+      "duration" : 1
     },
     "status" : "passed",
     "steps" : [ ],
@@ -45,8 +47,8 @@
   "afterStages" : [ {
     "name" : "xunit_setup_class_fixture_Testcase::0",
     "time" : {
-      "start" : 1625131735469,
-      "stop" : 1625131735470,
+      "start" : 1625133637351,
+      "stop" : 1625133637352,
       "duration" : 1
     },
     "status" : "passed",
@@ -60,8 +62,8 @@
   }, {
     "name" : "xunit_setup_method_fixture_Testcase::0",
     "time" : {
-      "start" : 1625131735465,
-      "stop" : 1625131735465,
+      "start" : 1625133637348,
+      "stop" : 1625133637348,
       "duration" : 0
     },
     "status" : "passed",
@@ -74,9 +76,6 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "@pytest.mark.skipif(condition=False, reason='如果条件为true就跳过用例')"
-  }, {
     "name" : "parentSuite",
     "value" : "testCase"
   }, {
@@ -90,7 +89,7 @@
     "value" : "XSD-20190315NRK"
   }, {
     "name" : "thread",
-    "value" : "7196-MainThread"
+    "value" : "3544-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -110,8 +109,8 @@
   "retry" : true,
   "extra" : {
     "categories" : [ ],
-    "tags" : [ "@pytest.mark.skipif(condition=False, reason='如果条件为true就跳过用例')" ]
+    "tags" : [ ]
   },
-  "source" : "cc1410583d4eb703.json",
+  "source" : "7c6aff039617b605.json",
   "parameterValues" : [ ]
 }

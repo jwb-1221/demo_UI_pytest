@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c64b611b26931945",
+      "uid" : "9d23e500724829c5",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert 0",
       "time" : {
-        "start" : 1625132930645,
-        "stop" : 1625132930646,
+        "start" : 1625133982829,
+        "stop" : 1625133982830,
         "duration" : 1
       }
     } ]
@@ -23,19 +23,18 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "15b51c6fcef22d51",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: 如果条件为true就跳过用例",
+      "uid" : "1b80a159832e3636",
+      "status" : "passed",
       "time" : {
-        "start" : 1625132930941,
-        "stop" : 1625132930941,
-        "duration" : 0
+        "start" : 1625133983142,
+        "stop" : 1625133983143,
+        "duration" : 1
       }
     } ]
   }

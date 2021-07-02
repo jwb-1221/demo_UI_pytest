@@ -1,21 +1,21 @@
 [ {
-  "uid" : "c64b611b26931945",
-  "name" : "test_case01",
+  "uid" : "1b80a159832e3636",
+  "name" : "测试用例标题2",
   "time" : {
-    "start" : 1625132930645,
-    "stop" : 1625132930646,
+    "start" : 1625133983142,
+    "stop" : 1625133983143,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d23e500724829c5",
+  "name" : "测试用例标题1",
+  "time" : {
+    "start" : 1625133982829,
+    "stop" : 1625133982830,
     "duration" : 1
   },
   "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "15b51c6fcef22d51",
-  "name" : "test_case02",
-  "time" : {
-    "start" : 1625132930941,
-    "stop" : 1625132930941,
-    "duration" : 0
-  },
-  "status" : "skipped",
   "severity" : "normal"
 } ]

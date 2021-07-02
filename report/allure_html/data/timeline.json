@@ -4,45 +4,45 @@
   "children" : [ {
     "name" : "XSD-20190315NRK",
     "children" : [ {
-      "name" : "7196-MainThread",
+      "name" : "13924-MainThread",
       "children" : [ {
-        "name" : "test_case02",
-        "uid" : "cc1410583d4eb703",
-        "parentUid" : "a211b12f7879b3e8588e02447cfd74ae",
-        "status" : "passed",
+        "name" : "测试用例标题1",
+        "uid" : "370bf5fd8cbdc35",
+        "parentUid" : "e7b07d9927a472ee2436bf56dfad81e8",
+        "status" : "failed",
         "time" : {
-          "start" : 1625131735464,
-          "stop" : 1625131735464,
-          "duration" : 0
+          "start" : 1625133486281,
+          "stop" : 1625133486282,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "test_case01",
-        "uid" : "90bb71c2fc1459e6",
-        "parentUid" : "a211b12f7879b3e8588e02447cfd74ae",
-        "status" : "passed",
+        "name" : "测试用例标题2",
+        "uid" : "738d7b12d28326ca",
+        "parentUid" : "e7b07d9927a472ee2436bf56dfad81e8",
+        "status" : "skipped",
         "time" : {
-          "start" : 1625131735454,
-          "stop" : 1625131735454,
+          "start" : 1625133486705,
+          "stop" : 1625133486705,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a211b12f7879b3e8588e02447cfd74ae"
+      "uid" : "e7b07d9927a472ee2436bf56dfad81e8"
     }, {
-      "name" : "3544-MainThread",
+      "name" : "4400-MainThread",
       "children" : [ {
         "name" : "test_case02",
-        "uid" : "15b51c6fcef22d51",
-        "parentUid" : "4a4c4bcfe96b77ef33b5f6a333fc6e6f",
+        "uid" : "dc1b22da382cb8a4",
+        "parentUid" : "a2c533f0492e64f9bbf0816a545bf225",
         "status" : "skipped",
         "time" : {
-          "start" : 1625132930941,
-          "stop" : 1625132930941,
+          "start" : 1625133167646,
+          "stop" : 1625133167646,
           "duration" : 0
         },
         "flaky" : false,
@@ -50,12 +50,42 @@
         "parameters" : [ ]
       }, {
         "name" : "test_case01",
-        "uid" : "c64b611b26931945",
+        "uid" : "ae5090aed3e8e714",
+        "parentUid" : "a2c533f0492e64f9bbf0816a545bf225",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625133167352,
+          "stop" : 1625133167353,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2c533f0492e64f9bbf0816a545bf225"
+    }, {
+      "name" : "3544-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题2",
+        "uid" : "7c6aff039617b605",
+        "parentUid" : "4a4c4bcfe96b77ef33b5f6a333fc6e6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625133637347,
+          "stop" : 1625133637347,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题1",
+        "uid" : "8233e6826671279e",
         "parentUid" : "4a4c4bcfe96b77ef33b5f6a333fc6e6f",
         "status" : "failed",
         "time" : {
-          "start" : 1625132930645,
-          "stop" : 1625132930646,
+          "start" : 1625133637048,
+          "stop" : 1625133637049,
           "duration" : 1
         },
         "flaky" : false,
@@ -63,6 +93,36 @@
         "parameters" : [ ]
       } ],
       "uid" : "4a4c4bcfe96b77ef33b5f6a333fc6e6f"
+    }, {
+      "name" : "10720-MainThread",
+      "children" : [ {
+        "name" : "测试用例标题2",
+        "uid" : "1b80a159832e3636",
+        "parentUid" : "20300abffb38f4113616f3da47d4a76d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625133983142,
+          "stop" : 1625133983143,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "测试用例标题1",
+        "uid" : "9d23e500724829c5",
+        "parentUid" : "20300abffb38f4113616f3da47d4a76d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1625133982829,
+          "stop" : 1625133982830,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20300abffb38f4113616f3da47d4a76d"
     } ],
     "uid" : "6a785c9550d4705623fbd2ea7f3ceb93"
   } ]
