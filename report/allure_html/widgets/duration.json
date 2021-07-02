@@ -1,20 +1,30 @@
 [ {
-  "uid" : "9d23e500724829c5",
-  "name" : "测试用例标题1",
+  "uid" : "588f7b904c4efb67",
+  "name" : "错误账号密码",
   "time" : {
-    "start" : 1625133982829,
-    "stop" : 1625133982830,
+    "start" : 1625213905247,
+    "stop" : 1625213905248,
     "duration" : 1
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1b80a159832e3636",
-  "name" : "测试用例标题2",
+  "uid" : "609a8dd49a75b597",
+  "name" : "test_case01",
   "time" : {
-    "start" : 1625133983142,
-    "stop" : 1625133983143,
-    "duration" : 1
+    "start" : 1625213905262,
+    "stop" : 1625213905262,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75990c69140de9f2",
+  "name" : "正确账号密码登录",
+  "time" : {
+    "start" : 1625213903201,
+    "stop" : 1625213905233,
+    "duration" : 2032
   },
   "status" : "passed",
   "severity" : "normal"

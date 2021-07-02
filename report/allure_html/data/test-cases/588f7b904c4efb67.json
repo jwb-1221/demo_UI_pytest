@@ -1,0 +1,164 @@
+{
+  "uid" : "588f7b904c4efb67",
+  "name" : "错误账号密码",
+  "fullName" : "testCase.test.Testcase#test_case02",
+  "historyId" : "9078c34ff831bb74ca4c0c76bfe75e29",
+  "time" : {
+    "start" : 1625213905247,
+    "stop" : 1625213905248,
+    "duration" : 1
+  },
+  "description" : "这是测试用例用例2的描述信息",
+  "descriptionHtml" : "<p>这是测试用例用例2的描述信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Testcase",
+    "time" : {
+      "start" : 1625213891491,
+      "stop" : 1625213903193,
+      "duration" : 11702
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_method_fixture_Testcase",
+    "time" : {
+      "start" : 1625213905246,
+      "stop" : 1625213905246,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625213905253,
+      "stop" : 1625213905254,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_method_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625213905250,
+      "stop" : 1625213905251,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录模块下的子模块:错误登录账号密码"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "XSD-20190315NRK"
+  }, {
+    "name" : "thread",
+    "value" : "11804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "43e3f2ef615fbcf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625211626417,
+        "stop" : 1625211626417,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "63a0c50269da5a5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625211045354,
+        "stop" : 1625211045355,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4099833619f20e5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625210750715,
+        "stop" : 1625210750716,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "15f3336729b989da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625210055524,
+        "stop" : 1625210055524,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d0a0cb53d3ea1552",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625209120265,
+        "stop" : 1625209120266,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "588f7b904c4efb67.json",
+  "parameterValues" : [ ]
+}

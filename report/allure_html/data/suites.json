@@ -8,26 +8,26 @@
       "children" : [ {
         "name" : "Testcase",
         "children" : [ {
-          "name" : "测试用例标题1",
-          "uid" : "9d23e500724829c5",
+          "name" : "正确账号密码登录",
+          "uid" : "75990c69140de9f2",
           "parentUid" : "fe366bc66d039645d163b01169486d66",
-          "status" : "failed",
+          "status" : "passed",
           "time" : {
-            "start" : 1625133982829,
-            "stop" : 1625133982830,
-            "duration" : 1
+            "start" : 1625213903201,
+            "stop" : 1625213905233,
+            "duration" : 2032
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
-          "name" : "测试用例标题2",
-          "uid" : "1b80a159832e3636",
+          "name" : "错误账号密码",
+          "uid" : "588f7b904c4efb67",
           "parentUid" : "fe366bc66d039645d163b01169486d66",
           "status" : "passed",
           "time" : {
-            "start" : 1625133983142,
-            "stop" : 1625133983143,
+            "start" : 1625213905247,
+            "stop" : 1625213905248,
             "duration" : 1
           },
           "flaky" : false,
@@ -35,6 +35,23 @@
           "parameters" : [ ]
         } ],
         "uid" : "fe366bc66d039645d163b01169486d66"
+      }, {
+        "name" : "Testcase2",
+        "children" : [ {
+          "name" : "test_case01",
+          "uid" : "609a8dd49a75b597",
+          "parentUid" : "dd64c84ae0dc0551379fedab155ee984",
+          "status" : "passed",
+          "time" : {
+            "start" : 1625213905262,
+            "stop" : 1625213905262,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "dd64c84ae0dc0551379fedab155ee984"
       } ],
       "uid" : "666959ed44ba2c51623b437b44456d6d"
     } ],

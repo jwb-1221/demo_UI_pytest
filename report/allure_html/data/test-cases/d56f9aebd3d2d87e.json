@@ -1,0 +1,122 @@
+{
+  "uid" : "d56f9aebd3d2d87e",
+  "name" : "正确账号密码登录",
+  "fullName" : "testCase.test.Testcase#test_case01",
+  "historyId" : "9a0b11c2437cbc89147d7c380b2f41d1",
+  "time" : {
+    "start" : 1625211624374,
+    "stop" : 1625211626269,
+    "duration" : 1895
+  },
+  "description" : "这是测试用例用例1的描述信息",
+  "descriptionHtml" : "<p>这是测试用例用例1的描述信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_Testcase",
+    "time" : {
+      "start" : 1625211624368,
+      "stop" : 1625211624370,
+      "duration" : 2
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Testcase",
+    "time" : {
+      "start" : 1625211612888,
+      "stop" : 1625211624368,
+      "duration" : 11480
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625211626272,
+      "stop" : 1625211626272,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625211626421,
+      "stop" : 1625211626421,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录模块下的子模块:正确账号密码登录"
+  }, {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "XSD-20190315NRK"
+  }, {
+    "name" : "thread",
+    "value" : "14500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d56f9aebd3d2d87e.json",
+  "parameterValues" : [ ]
+}

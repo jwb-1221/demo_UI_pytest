@@ -2,30 +2,59 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "测试用例标题1",
-    "uid" : "9d23e500724829c5",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "failed",
-    "time" : {
-      "start" : 1625133982829,
-      "stop" : 1625133982830,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "登录模块下的子模块:正确账号密码登录",
+      "children" : [ {
+        "name" : "正确账号密码登录",
+        "uid" : "75990c69140de9f2",
+        "parentUid" : "4796e7eb3d52a444c844a29e0e4d2c6f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625213903201,
+          "stop" : 1625213905233,
+          "duration" : 2032
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4796e7eb3d52a444c844a29e0e4d2c6f"
+    }, {
+      "name" : "登录模块下的子模块:错误登录账号密码",
+      "children" : [ {
+        "name" : "错误账号密码",
+        "uid" : "588f7b904c4efb67",
+        "parentUid" : "77d5b974345f35dfbde2237c4e6bcc00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1625213905247,
+          "stop" : 1625213905248,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77d5b974345f35dfbde2237c4e6bcc00"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
   }, {
-    "name" : "测试用例标题2",
-    "uid" : "1b80a159832e3636",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1625133983142,
-      "stop" : 1625133983143,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
+    "name" : "添加纳税人模块",
+    "children" : [ {
+      "name" : "test_case01",
+      "uid" : "609a8dd49a75b597",
+      "parentUid" : "87201952bda25f21e1d8a771b3650894",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625213905262,
+        "stop" : 1625213905262,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "87201952bda25f21e1d8a771b3650894"
   } ]
 }

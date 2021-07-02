@@ -1,0 +1,168 @@
+{
+  "uid" : "75990c69140de9f2",
+  "name" : "正确账号密码登录",
+  "fullName" : "testCase.test.Testcase#test_case01",
+  "historyId" : "9a0b11c2437cbc89147d7c380b2f41d1",
+  "time" : {
+    "start" : 1625213903201,
+    "stop" : 1625213905233,
+    "duration" : 2032
+  },
+  "description" : "这是测试用例用例1的描述信息",
+  "descriptionHtml" : "<p>这是测试用例用例1的描述信息</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_method_fixture_Testcase",
+    "time" : {
+      "start" : 1625213903193,
+      "stop" : 1625213903198,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Testcase",
+    "time" : {
+      "start" : 1625213891491,
+      "stop" : 1625213903193,
+      "duration" : 11702
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_method_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625213905236,
+      "stop" : 1625213905237,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Testcase::0",
+    "time" : {
+      "start" : 1625213905253,
+      "stop" : 1625213905254,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录模块下的子模块:正确账号密码登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "subSuite",
+    "value" : "Testcase"
+  }, {
+    "name" : "host",
+    "value" : "XSD-20190315NRK"
+  }, {
+    "name" : "thread",
+    "value" : "11804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d56f9aebd3d2d87e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625211624374,
+        "stop" : 1625211626269,
+        "duration" : 1895
+      }
+    }, {
+      "uid" : "c20b038673436f9c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebElement' object has no attribute 'send_key'",
+      "time" : {
+        "start" : 1625211044433,
+        "stop" : 1625211044722,
+        "duration" : 289
+      }
+    }, {
+      "uid" : "1303981c3073b43",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebElement' object has no attribute 'send_key'",
+      "time" : {
+        "start" : 1625210749970,
+        "stop" : 1625210750207,
+        "duration" : 237
+      }
+    }, {
+      "uid" : "e130b4e622379ce7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1625210054748,
+        "stop" : 1625210054990,
+        "duration" : 242
+      }
+    }, {
+      "uid" : "8dfc77332bb7daf4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 0",
+      "time" : {
+        "start" : 1625209119473,
+        "stop" : 1625209119733,
+        "duration" : 260
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75990c69140de9f2.json",
+  "parameterValues" : [ ]
+}
