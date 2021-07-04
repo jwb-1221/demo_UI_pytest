@@ -2,12 +2,10 @@
 # _*_ coding:utf-8 _*_
 __author__ = 'BIN'
 
-import yagmail, os, time
-from common import new_report
+import yagmail
+from lib import new_report
 import configparser
 from config import config
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
 
 con = configparser.ConfigParser()
 con.read(config.CONFIG, encoding='utf-8')

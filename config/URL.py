@@ -4,4 +4,7 @@ class URL():
         return "*************************"
     def admin_url(self):
         """运营端地址"""
-        return "*************************"
+        return "http://account-admin-webos-test.lastmiles.cn/#/"
+    def url(self,url):
+        return "http://account-admin-webos-test.lastmiles.cn/#/"+url
+
