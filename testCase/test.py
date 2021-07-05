@@ -56,14 +56,14 @@ class Testcase2(object):
         pass
 
     @pytest.mark.parametrize('mobile',mobile_list)
-    @allure.title("登录测试用例{(mobile['1'])}")
+    @allure.title("登录测试用例")
     def test_register(self,mobile):
         print('注册手机号是: {}***{}'.format(mobile["1"],mobile["2"]))
 
 
 
-# if __name__ == '__main__':
-#
-#     pytest.main(["-s", "test.py"])
+if __name__ == '__main__':
+
+    pytest.main(["-s", "test.py"])
 
 
